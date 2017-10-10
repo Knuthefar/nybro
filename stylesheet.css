@@ -41,7 +41,16 @@ header nav a:hover {
     background-size: cover;
 }
 
-.container {
+.sectionwrapper {
+
+    display: flex;
+    align-items: center;
+}
+
+
+.top {}
+
+.column {
 
     margin: 50px;
 
