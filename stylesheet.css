@@ -1,11 +1,16 @@
+body {
+
+    margin: 0px;
+}
+
 header {
-    /*    position: fixed;*/
+    position: fixed;
     width: 100%;
     padding: 1em;
 }
 
 header nav {
-    font-family: 'Inconsolata', monospace, helvetica;
+    font-family: helvetica;
     text-align: right;
     margin: 0 5vw 0 0;
 }
@@ -14,7 +19,6 @@ header nav a {
     text-decoration: none;
     color: #000000;
     padding-left: 4px;
-    /*    display: block;*/
 }
 
 header nav a:hover {
@@ -24,7 +28,6 @@ header nav a:hover {
 .logo img {
 
     margin: 10px;
-    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,9 +37,7 @@ header nav a:hover {
 .splash img {
 
     width: 100vw;
-    height: 100%;
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -44,14 +45,12 @@ header nav a:hover {
 .sectionwrapper {
 
     display: flex;
-    align-items: center;
+    justify-content: center;
+    line-height: 1.8;
+    margin: 20px 50px;
 }
 
 
 .top {}
 
-.column {
-
-    margin: 50px;
-
-}
+.column {}
